@@ -1,0 +1,11 @@
+{
+  "name": "GoBarber-Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leosdesousa12/GoBarber-Backend",
+  "author": "leosdesousa <leonardo.silva@academico.ifpb.edu.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
