@@ -36,3 +36,12 @@ Após inicie o servidor executando:
 ```
 npm start
 ```
+
+## Banco de Dados Postgress com docker
+
+Utilizando o docker pra isolar o banco de dados da aplicação. Para baixar a versão 11 do postgress certifique que esta com o docker instalado, veja como <a href="https://docs.docker.com/get-docker/">aqui</a> 
+
+execute o container com o seguinte comando, altere a senha, se tiver um postgres já configurado em sua maquina altere a porta por exemplo 54233:5432.
+``` 
+docker run --name database -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres:11
+```
