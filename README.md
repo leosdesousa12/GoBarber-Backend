@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img alt="Icon" src="./logo-header.svg" width="60"/>
+</p>
 <h1 align="center">
   Go Barber Backend
 </h1>
